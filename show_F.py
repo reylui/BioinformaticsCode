@@ -1,3 +1,5 @@
+
+from tabulate import tabulate
 def show_F(h_sequence, v_sequence, data, hide_zeros=False, nonzero_val=None):
     rows = []
     col_headers = [c.decode('UTF-8') for c in h_sequence.values]

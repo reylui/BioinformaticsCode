@@ -1,11 +1,11 @@
-
+from skbio.alignment import _tabular_msa
+from tabulate import tabulate
 def show_F(h_sequence, v_sequence, data, hide_zeros=False, nonzero_val=None):
-    from tabulate import tabulate
 
     rows = []
     col_headers = [c.decode('UTF-8') for c in h_sequence.values]
     row_headers = [c.decode('UTF-8') for c in v_sequence.values]
-    pad_headers = data.shape == (len(row_headers) + 1, len(col_headers) + 1)
+    pad_headers: Union[bool, Any] = data.shape == (len(row_headers) + 1, len(col_headers) + 1)
     if pad_headers:
         row_headers = [" "] + row_headers
         col_headers = [" "] + col_headers
@@ -24,4 +24,5 @@ def show_F(h_sequence, v_sequence, data, hide_zeros=False, nonzero_val=None):
                     current_row.append(e)
         rows.append(current_row)
     return tabulate.tabulate(rows, headers=col_headers, tablefmt='html')
+
 

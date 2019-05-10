@@ -1,0 +1,7 @@
+# Constructed from biom file													
+#OTU ID	patient1	patient2	patient3	patient4	patient5	patient6	patient7	patient8	patient9	patient10	patient11	patient12	taxonomy
+OTU1	3	4	2	2	0	4	4	4	0	3	2	2	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Actinomycetales; f__Corynebacteriaceae; g__Corynebacterium; s__
+OTU2	4	1	3	4	1	3	3	3	4	1	1	4	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Vibrionales; f__Pseudoalteromonadaceae; g__Pseudoalteromonas; s__
+OTU3	1	4	2	1	4	2	2	2	1	4	4	1	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Vibrionales; f__Pseudoalteromonadaceae; g__Pseudoalteromonas; s__
+OTU4	2	3	0	1	2	0	1	2	3	0	2	1	k__Bacteria; p__Verrucomicrobia; c__Opitutae; o__Opitutales; f__Opitutaceae; g__Opitutus; s__
+OTU5	0	0	0	0	0	0	1	4	2	2	3	4	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Vibrionales

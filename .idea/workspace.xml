@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b3e395e-b083-46ae-a70c-4cc16d73d500" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PythonProblems2.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonProblems2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/PythonProblems1-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/PythonProblems1-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonProblems1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/PythonProblems1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simulating_Lizard_Length_Basic_Stats_in_Python_r7.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Simulating_Lizard_Length_Basic_Stats_in_Python_r7.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms.ipynb" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +15,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/BioinformaticsCode$BioinformaticsCode.coverage" NAME="BioinformaticsCode Coverage Results" MODIFIED="1559769426926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BioinformaticsCode$PythonProblems2.coverage" NAME="PythonProblems2 Coverage Results" MODIFIED="1559774264271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="740558705">
@@ -32,92 +32,53 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="ipynb" value="10" />
-          <entry key="py" value="4" />
+          <entry key="ipynb" value="11" />
+          <entry key="py" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IPNB" value="10" />
-          <entry key="Python" value="4" />
+          <entry key="IPNB" value="11" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="83" />
-          <entry key="py" value="500" />
+          <entry key="py" value="2293" />
           <entry key="txt" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="38" />
-          <entry key="Python" value="583" />
+          <entry key="Python" value="2376" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Microbiome Analysis - basics.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Microbiome_Analysis_in_class_r2.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonProblems2.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Algorithms.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonProblems1.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/PythonProblems1-checkpoint.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Project1Code.py">
+        <entry file="file://$PROJECT_DIR$/PythonProblems2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="408">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#441#459#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+              <folding>
+                <element signature="e#393#406#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,7 +107,9 @@
         <option value="$PROJECT_DIR$/Project1Code.py" />
         <option value="$PROJECT_DIR$/Simulating_Lizard_Length_Basic_Stats_in_Python_r7.ipynb" />
         <option value="$PROJECT_DIR$/PythonProblems2.ipynb" />
+        <option value="$PROJECT_DIR$/Project1/PythonProblems2.py" />
         <option value="$PROJECT_DIR$/algorithms.py" />
+        <option value="$PROJECT_DIR$/PythonProblems2.py" />
       </list>
     </option>
   </component>
@@ -205,7 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.PythonProblems2">
     <configuration name="BioinformaticsCode" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="BioinformaticsCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -224,6 +187,37 @@
       <option name="ipnbPort" value="8888" />
       <method v="2" />
     </configuration>
+    <configuration name="PythonProblems2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BioinformaticsCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonProblems2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Jupyter Notebook.BioinformaticsCode" />
+      <item itemvalue="Python.PythonProblems2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.PythonProblems2" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -292,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558376620292</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="adding more code">
+      <created>1559773415089</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559773415089</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -308,12 +309,12 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19463088" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19463088" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7375839" visible="true" weight="0.23120567" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7375839" visible="true" weight="0.23120567" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -345,20 +346,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="adding more code" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Microbiome Analysis - basics.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Microbiome_Analysis_in_class_r2.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/PythonProblems1-checkpoint.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -379,9 +366,6 @@
           <selected id="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/show_F.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -404,10 +388,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Microbiome_Analysis_in_class_r2.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Microbiome Analysis - basics.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project1/PythonProblems2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding>
+            <element signature="e#393#406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonProblems2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#441#459#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

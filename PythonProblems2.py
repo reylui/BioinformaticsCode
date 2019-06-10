@@ -15,16 +15,20 @@ from IPython.core import page
 # First we take a look at the function that is going to help us model this DNA sequence evolution.
 # This is were most of the modeling takes place.
 
-from algorithms import evolve_sequence
+from BioinformaticsCode.algorithms import evolve_sequence
 
 # This function will help us model a single generation of a single sequence.
 # Here, clonal reproduction will occur
-from algorithms import evolve_generation
+
+from BioinformaticsCode.algorithms import evolve_generation
 
 # Then we have the entry point function. We provide the parameters for the simulation: Initial sequence, number of
 # generations and mutation probabilities.
 # This code is built on the previously mentioned functions.
-from algorithms import evolve_generations
+
+from BioinformaticsCode.algorithms import evolve_generations
+
+
 
 
 
